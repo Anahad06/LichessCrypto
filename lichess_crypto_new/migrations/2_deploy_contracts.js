@@ -1,5 +1,5 @@
-const ChessBetting = artifacts.require("ChessBetting");
+const ChessBet = artifacts.require("ChessBet");
 
-module.exports = function (deployer) {
-    deployer.deploy(ChessBetting);
+module.exports = function(deployer) {
+  deployer.deploy(ChessBet);
 };
